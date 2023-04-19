@@ -1,0 +1,140 @@
+*{
+  font-family: fantasy;
+  text-align: center;
+}
+
+.boton {
+ 
+  
+  border-radius: 20px;
+  
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 100;
+  
+  width: 60px;
+  height: 60px;
+  margin: 0.5em;
+  font-size: 30px;
+  background-color: #81aa66;
+  
+}
+
+.my-transition {
+  transition: all 2s ease;
+  background-color: #eee;
+  color: #eee;
+  
+}
+
+
+#puntaje2{
+  color: #2975b8;
+  font-size: 30px;
+  
+}
+
+.seleccionado-correcto1{
+  background-color:#81aa66 ;
+}
+
+
+.aviso {
+  position: fixed;
+  top: 5.3cm;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffd500;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.aviso2 {
+  position: fixed;
+  top: 8.3cm;
+  left: 50%;
+  width: 77pc;
+  height: 11pc;
+  transform: translateX(-50%);
+  background-color: #91a355;
+  color: #333;
+  padding: 11pc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+#puntaje{
+  color: #0a100c;
+  font-size: 30px;
+  
+}
+
+#reiniciar-juego{
+  border-radius: 20px;
+  background-color: #f78604;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  width: 6em;
+  height: 6em;
+  
+  font-size: 1em;
+
+}
+#reiniciar-juego:hover{
+  background-color: #cc8e64;
+  cursor: pointer;
+}
+body{
+  background-color: rgb(251, 255, 0);
+  padding: 30px;
+}
+p{
+  background-color: #81aa66;
+  font-size: 30px;
+  border-radius: 30px 0 30px 0;
+}
+h1{
+  background-color: #f78604;
+  font-family: fantasy;
+  font-weight: 200;
+  border-radius: 0 30px 0 30px;
+}
+
+/* Div botones */
+#botones-verbos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  
+  
+}
+#botones-verbos button {
+  flex-basis: calc(100% / 7);
+}
+
+
+
+.seleccionado {
+  background-color: #ffc107;
+  color: black;
+}
+
+.seleccionado-correcto {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.seleccionado-incorrecto {
+  background-color: #dc3545;
+  color: #fff;
+}
